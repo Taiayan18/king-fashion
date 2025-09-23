@@ -390,6 +390,119 @@
 
 
 
+.T-shirts-1{
+border: 1px solid black;
+height: 400px;
+background-image: url(./images/t-shirt-1.jfif);
+    background-size: cover;
+    background-position-y: -12px;
+}
+
+
+
+
+.T-shirts-2{
+border: 1px solid black;
+height: 400px;
+background-image: url(./images/t-shirts-2.avif);
+    background-size: cover;
+}
+
+
+
+.T-shirts-3{
+border: 1px solid black;
+height: 400px;
+background-image: url(./images/);
+    background-size: cover;
+}
+
+
+
+.T-shirts-4{
+border: 1px solid black;
+height: 400px;
+background-image: url(./images/images-5.jfif);
+    background-size: cover;
+}
+
+
+
+
+.T-shirts-5{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-6.jfif);
+    background-size: cover;
+}
+.T-shirts-6{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-7.jfif);
+    background-size: cover;
+}
+
+.jeans-6:hover{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-7-2.jfif);
+    background-size: cover;
+}
+
+
+
+.T-shirts-7{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-8.jfif);
+    background-size: cover;
+}
+
+.T-shirts-8{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-9.jfif);
+    background-size: cover;
+}
+
+
+.T-shirts-9{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-10.jfif);
+    background-size: cover;
+}
+
+
+.T-shirts-10{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-11.jfif);
+    background-size: cover;
+}
+
+.T-shirts-11{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-12.jfif);
+    background-size: cover;
+}
+
+
+.T-shirts-12{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-13.jfif);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
 
 
 
