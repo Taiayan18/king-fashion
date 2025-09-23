@@ -1,0 +1,512 @@
+.box1{
+
+    border: 1px solid black;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    letter-spacing: 0.1rem;
+}
+
+.box1 button{
+    height: 35px;
+    width: 120px;
+    padding: auto;
+       letter-spacing: 0.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.box1 button:hover{
+   transform: scale(1.04);
+    
+}
+
+.logo{
+   
+    border: 1px solid rgb(0, 0, 0);
+     height: 40px;
+     
+    
+}
+
+.logo i{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-top: 8px;
+     padding-left: 20px;
+     gap: 20px;
+     
+}
+
+.logo i:hover{
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+
+
+.box2{
+    background-color: rgb(150, 150, 150);
+    color: rgb(255, 255, 255);
+    border: 1px solid rebeccapurple;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo2{
+    height: 120px;
+    width: 220px;
+}
+
+.menu{
+    font-size: 23px;
+}
+
+.sec1{
+    border: 1px solid black;
+    
+
+}
+
+
+.s1{
+    
+    display: flex;
+    gap: 20px;
+   overflow-x: auto;
+   overflow-y: hidden;
+    padding: 20px;
+   scroll-behavior: smooth;
+   margin-top: 40px;
+   margin-left: 8%;
+   margin-right: 8%;
+   margin-bottom: 20px;
+
+  
+}
+
+
+
+.s1::-webkit-scrollbar {
+  height: 8px;             
+}
+
+.s1::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+.s1::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+
+.s1 > div {
+  flex: 0 0 auto;
+}
+
+
+.images-1{
+    border: 1px solid black;
+    height: 350px;
+    width: 310px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+
+.back-img1{
+    background-image: url(./images/OIP\ \(7\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.back-img2{
+    background-image: url(./images/OIP\ \(8\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-img3{
+    background-image: url(./images/OIP.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -40px;
+}
+
+.back-img4{
+    background-image: url(./images/39.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+
+.back-img5{
+    background-image: url(./images/OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+
+.back-img6{
+    background-image: url(./images/OIP\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+
+.back-img7{
+    background-image: url(./images/OIP\ \(2\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+
+.back-img8{
+    background-image: url(./images/OIP\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+
+
+.back-img9{
+    background-image: url(./images/1_fc68c48f-d9b5-4589-85f7-84c8b44690b8_500x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+
+.images-1 button{
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 100%;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+}
+
+
+.jeans{
+    margin-top: 1%;
+    border:  1px solid black;
+    height: 65px;
+    background-color: #818181;
+    color: aliceblue;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.jeans h1{
+    font-size: 50px
+}
+
+.box5{
+    
+    height: 600px;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.combo1{
+    border: 1px solid black;
+    height: 560px;
+    width: 350px;
+
+}
+
+.combo-shirts{
+   margin-top: 20px;
+   margin-bottom: 22px;
+
+}
+
+
+.price1{
+    color: #444;
+    font-size: 22px;
+}
+
+.price2{
+    
+    font-size: 22px;
+    color: red;
+}
+
+
+.contact-us{
+    margin-top: 20px;
+    font-size: 18px;
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.contact-us:hover{
+      color: rgb(0, 0, 0);
+    background-color: rgba(110, 110, 110, 0.356);
+}
+
+
+
+.jeans-1{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images1.jfif);
+    background-size: cover;
+    background-position-y: -12px;
+}
+
+
+.jeans-1:hover{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-2.jfif);
+    background-size: cover;
+    background-position-y: -12px;
+}
+
+
+.jeans-2{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-3.jfif);
+    background-size: cover;
+}
+
+
+
+.jeans-3{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-4.jfif);
+    background-size: cover;
+}
+
+
+
+.jeans-4{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-5.jfif);
+    background-size: cover;
+}
+
+
+
+
+.jeans-5{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-6.jfif);
+    background-size: cover;
+}
+.jeans-6{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-7.jfif);
+    background-size: cover;
+}
+
+.jeans-6:hover{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-7-2.jfif);
+    background-size: cover;
+}
+
+
+
+.jeans-7{
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+.jeans-8{
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+.jeans-9{
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+.jeans-10{
+    border: 1px solid black;
+    height: 400px;
+    width:350px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .images-1{
+        width: 280px;
+        height: 300px;
+    }
+
+}
+
+
+@media(max-width:1100px){
+    .combo1{
+        width: 300px;
+        height: 500px;
+    }
+
+    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+        height: 330px;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:992px){
+    .images-1{
+        width: 240px;
+        height: 270px;
+    }
+}
+
+
+
+@media(max-width:960px){
+    .combo1{
+        width: 260px;
+        height: 460px;
+    }
+
+    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+        height: 280px;
+    }
+}
+
+
+
+@media(max-width:830px){
+    .combo1{
+        width: 230px;
+        height: 430px;
+    }
+
+    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+        height: 240px;
+    }
+    .combo-shirts h5,.price1{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:778px){
+    .images-1{
+        width: 200px;
+        height: 240px;
+    }
+}
+
+
+@media(max-width:745px){
+    .box5{
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media(max-width:658px){
+    .images-1{
+        width: 170px;
+        height: 200px;
+    }
+}
+
+@media(max-width:558px){
+    .images-1{
+        width: 140px;
+        height: 170px;
+    }
+}
+
+
+
+@media(max-width:480px){
+    .combo1{
+        width: 180px;
+        height: 430px;
+    }
+
+    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+        height: 240px;
+    }
+}
+
+
+@media(max-width:460px){
+    .images-1{
+        width: 130px;
+        height: 120px;
+    }
+}
+
+
+
+
+
