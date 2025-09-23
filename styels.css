@@ -342,30 +342,47 @@
 .jeans-7{
     border: 1px solid black;
     height: 400px;
+    background-image: url(./images/images-8.jfif);
+    background-size: cover;
 }
-
-
 
 .jeans-8{
     border: 1px solid black;
     height: 400px;
+    background-image: url(./images/images-9.jfif);
+    background-size: cover;
 }
-
 
 
 .jeans-9{
     border: 1px solid black;
     height: 400px;
+    background-image: url(./images/images-10.jfif);
+    background-size: cover;
 }
-
 
 
 .jeans-10{
     border: 1px solid black;
     height: 400px;
-    width:350px
+    background-image: url(./images/images-11.jfif);
+    background-size: cover;
 }
 
+.jeans-11{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-12.jfif);
+    background-size: cover;
+}
+
+
+.jeans-12{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/images-13.jfif);
+    background-size: cover;
+}
 
 
 
@@ -402,7 +419,7 @@
         height: 500px;
     }
 
-    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
         height: 330px;
     }
 }
@@ -428,7 +445,7 @@
         height: 460px;
     }
 
-    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
         height: 280px;
     }
 }
@@ -441,7 +458,7 @@
         height: 430px;
     }
 
-    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
         height: 240px;
     }
     .combo-shirts h5,.price1{
@@ -461,6 +478,14 @@
         width: 200px;
         height: 240px;
     }
+
+      .back-img7 button h3{
+        font-size: 20px;
+    }
+
+    .back-img9 button h3{
+        font-size: 20px;
+    }
 }
 
 
@@ -476,12 +501,45 @@
         width: 170px;
         height: 200px;
     }
+
+      .back-img7 button h3{
+        font-size: 17px;
+    }
+
+    .back-img9 button h3{
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width:560px){
+      .back-img7 button h3{
+        font-size: 15px;
+    }
+
+    .back-img9 button h3{
+        font-size: 15px;
+    }
 }
 
 @media(max-width:558px){
     .images-1{
         width: 140px;
-        height: 170px;
+        height: 190px;
+    }
+    .jeans h1{
+        font-size: 45px;
+    }
+}
+
+
+@media(max-width:535px){
+      .back-img7 button h3{
+        font-size: 15px;
+    }
+
+    .back-img9 button h3{
+        font-size: 15px;
     }
 }
 
@@ -493,7 +551,7 @@
         height: 430px;
     }
 
-    .jeans-1,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-7,.jeans-8,.jeans-9,.jeans-10{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
         height: 240px;
     }
 }
@@ -502,7 +560,44 @@
 @media(max-width:460px){
     .images-1{
         width: 130px;
-        height: 120px;
+        height: 180px;
+    }
+
+    .back-img7 button h3{
+        font-size: 15px;
+    }
+
+    .back-img9 button h3{
+        font-size: 15px;
+    }
+
+
+
+    .jeans{
+        height: 45px;
+    }
+     .jeans h1{
+        font-size: 35px;
+    }
+}
+
+
+@media(max-width:400px){
+    .combo1{
+        width: 150px;
+        height: 390px;
+    }
+
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
+        height: 210px;
+    }
+
+    .combo-shirts h5{
+        font-size: 16px;
+    }
+
+    .price2{
+        font-size: 17px;
     }
 }
 
