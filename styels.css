@@ -205,9 +205,9 @@
 
 
 .jeans{
-    margin-top: 1%;
+    margin-top: 3%;
     border:  1px solid black;
-    height: 65px;
+    height: 80px;
     background-color: #818181;
     color: aliceblue;
   
@@ -216,7 +216,8 @@
 
 
 .jeans h1{
-    font-size: 50px
+    text-align: center;
+    font-size: 40px
 }
 
 .box5{
@@ -342,47 +343,121 @@
 .jeans-7{
     border: 1px solid black;
     height: 400px;
-    background-image: url(./images/images-8.jfif);
+    background-image: url(./images/3179c1df-4af3-46ef-b348-422fefa1b694.jpg);
     background-size: cover;
 }
 
 .jeans-8{
     border: 1px solid black;
     height: 400px;
-    background-image: url(./images/images-9.jfif);
+    background-image: url(./images/combo-12.jpg);
     background-size: cover;
+    background-position-y: -40px;
 }
 
 
 .jeans-9{
     border: 1px solid black;
     height: 400px;
-    background-image: url(./images/images-10.jfif);
+    background-image: url(./images/e29f08e5-e2a3-4f71-a26a-292fb11ca429.jpg);
     background-size: cover;
+    background-position-y: -30px;
 }
 
 
 .jeans-10{
     border: 1px solid black;
     height: 400px;
-    background-image: url(./images/images-11.jfif);
+    background-image: url(./images/4514d7f0-cb64-4960-8fb0-dd1565b363d3.jpg);
     background-size: cover;
+     background-position-y: -40px;
 }
 
 .jeans-11{
     border: 1px solid black;
     height: 400px;
-    background-image: url(./images/images-12.jfif);
+    background-image: url(./images/WhatsApp\ Image\ 2025-09-24\ at\ 4.54.50\ PM.jpeg);
     background-size: cover;
+     background-position-y: -40px;
 }
 
 
 .jeans-12{
     border: 1px solid black;
     height: 400px;
-    background-image: url(./images/images-13.jfif);
+    background-image: url(./images/d4844017-c55a-4dbf-bd06-4005d4cff069.jpg);
     background-size: cover;
+    background-position-y: -30px;
 }
+
+.jeans-13{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/a0f9fca0-2d34-4893-9cf2-b4cf4addcba4.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+}
+
+.jeans-14{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/1332ce7a-7214-46a5-a165-8a69ca56c10e.jpg);
+    background-size: cover;
+    background-position-y: -10px;
+}
+
+
+.jeans-15{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/6f2f48de-05d9-49ef-b972-0b7e4f8e9688.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+
+.jeans-16{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/98dfd111-1174-4b0d-b2ca-26d06d98c1e2.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.jeans-17{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/35862fd9-a247-45b6-a26d-e3948aee562d.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.jeans-18{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/66bc1a88-6742-4d06-af3f-718a7caf6fc8.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.jeans-19{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/ed043679-ae82-47e5-912f-c5012c8d64d0.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+
+.jeans-20{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/4ed979b8-e2fe-4616-bee5-78dc38b68a9a.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+
 
 
 
@@ -496,6 +571,11 @@ background-image: url(./images/images-5.jfif);
     background-size: cover;
 }
 
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
 
 
 
@@ -523,6 +603,14 @@ background-image: url(./images/images-5.jfif);
         height: 300px;
     }
 
+    .combo1{
+        height: 580px;
+    }
+
+    .combo-shirts h5{
+        font-size: 20px;
+    }
+
 }
 
 
@@ -532,7 +620,7 @@ background-image: url(./images/images-5.jfif);
         height: 500px;
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
         height: 330px;
     }
 }
@@ -548,6 +636,24 @@ background-image: url(./images/images-5.jfif);
         width: 240px;
         height: 270px;
     }
+
+    .back-img1  {
+        height: 300px;
+        font-size: 20px;
+    }
+
+     .back-img1 button  {
+      
+        height: 50px;
+    }
+    .back-img1 button h3 {
+       
+        font-size: 25px;
+    }
+
+    .jeans h1{
+       font-size: 30px;
+    }
 }
 
 
@@ -555,10 +661,10 @@ background-image: url(./images/images-5.jfif);
 @media(max-width:960px){
     .combo1{
         width: 260px;
-        height: 460px;
+        height: 500px;
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
         height: 280px;
     }
 }
@@ -571,7 +677,7 @@ background-image: url(./images/images-5.jfif);
         height: 430px;
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
         height: 240px;
     }
     .combo-shirts h5,.price1{
@@ -641,7 +747,7 @@ background-image: url(./images/images-5.jfif);
         height: 190px;
     }
     .jeans h1{
-        font-size: 45px;
+        font-size: 38px;
     }
 }
 
@@ -664,7 +770,7 @@ background-image: url(./images/images-5.jfif);
         height: 430px;
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
         height: 240px;
     }
 }
@@ -690,7 +796,7 @@ background-image: url(./images/images-5.jfif);
         height: 45px;
     }
      .jeans h1{
-        font-size: 35px;
+        font-size: 24px;
     }
 }
 
@@ -701,7 +807,7 @@ background-image: url(./images/images-5.jfif);
         height: 390px;
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12{
+    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
         height: 210px;
     }
 
@@ -713,7 +819,6 @@ background-image: url(./images/images-5.jfif);
         font-size: 17px;
     }
 }
-
 
 
 
