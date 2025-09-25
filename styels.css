@@ -1,825 +1,1290 @@
-.box1{
-
-    border: 1px solid black;
-    height: 60px;
-    background-color: black;
-    color: aliceblue;
+    .box1 {
+    background: black;
+    color: white;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: auto;
-    letter-spacing: 0.1rem;
-}
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    }
 
-.box1 button{
-    height: 35px;
-    width: 120px;
-    padding: auto;
-       letter-spacing: 0.1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
+    .box1 button {
+    font-size: 14px;
+    transition: 0.3s ease;
+    }
+    .box1 button:hover {
+    transform: scale(1.05);
+    }
 
-.box1 button:hover{
-   transform: scale(1.04);
-    
-}
+    .collapse {
+        color: #e4e4e4;
+    }
 
-.logo{
-   
-    border: 1px solid rgb(0, 0, 0);
-     height: 40px;
-     
-    
-}
+    .navbar-nav .nav-link {
+    font-size: 16px;
+    margin: 0 8px;
+    }
 
-.logo i{
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    margin-top: 8px;
-     padding-left: 20px;
-     gap: 20px;
-     
-}
-
-.logo i:hover{
-    transform: scale(1.09);
-    transition: 0.5s;
-}
-
-
-.box2{
-    background-color: rgb(150, 150, 150);
+    .navbar-nav .dropdown-menu {
+    background: #212529;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item {
     color: rgb(255, 255, 255);
-    border: 1px solid rebeccapurple;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
+    }
+    .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background: #7e7c7c;
+    }
 
-.logo2{
-    height: 120px;
-    width: 220px;
-}
-
-.menu{
-    font-size: 23px;
-}
-
-.sec1{
-    border: 1px solid black;
-    
-
-}
-
-
-.s1{
-    
-    display: flex;
-    gap: 20px;
-   overflow-x: auto;
-   overflow-y: hidden;
-    padding: 20px;
-   scroll-behavior: smooth;
-   margin-top: 40px;
-   margin-left: 8%;
-   margin-right: 8%;
-   margin-bottom: 20px;
-
-  
-}
-
-
-
-.s1::-webkit-scrollbar {
-  height: 8px;             
-}
-
-.s1::-webkit-scrollbar-thumb {
-  background: #444;
-  border-radius: 10px;
-}
-
-.s1::-webkit-scrollbar-track {
-  background: #ddd;
-}
-
-
-.s1 > div {
-  flex: 0 0 auto;
-}
-
-
-.images-1{
-    border: 1px solid black;
-    height: 350px;
-    width: 310px;
-    border-radius: 50px 50px 0px 0px;
-}
-
-
-.back-img1{
-    background-image: url(./images/OIP\ \(7\).webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.back-img2{
-    background-image: url(./images/OIP\ \(8\).webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.back-img3{
-    background-image: url(./images/OIP.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: -40px;
-}
-
-.back-img4{
-    background-image: url(./images/39.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0px;
-}
-
-
-.back-img5{
-    background-image: url(./images/OIP.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0px;
-}
-
-
-.back-img6{
-    background-image: url(./images/OIP\ \(1\).webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0px;
-}
-
-
-.back-img7{
-    background-image: url(./images/OIP\ \(2\).webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0px;
-}
-
-
-.back-img8{
-    background-image: url(./images/OIP\ \(1\).jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0px;
-}
-
-
-
-.back-img9{
-    background-image: url(./images/1_fc68c48f-d9b5-4589-85f7-84c8b44690b8_500x.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0px;
-}
-
-
-.images-1 button{
-    height: 40px;
-    width: 90%;
-    border-radius: 10px;
+    .navbar i {
     font-size: 25px;
-    margin-top: 100%;
-    margin-left: 5%;
-    background-color: black;
+    cursor: pointer;
     color: white;
-}
+    transition: transform 0.3s;
+    }
+    .navbar i:hover {
+    transform: scale(1.1);
+    }
 
+    .s1{
+        
+        display: flex;
+        gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+        padding: 20px;
+    scroll-behavior: smooth;
+    margin-top: 40px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 20px;
 
-.jeans{
-    margin-top: 3%;
-    border:  1px solid black;
-    height: 80px;
-    background-color: #818181;
-    color: aliceblue;
-  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-.jeans h1{
-    text-align: center;
-    font-size: 40px
-}
-
-.box5{
     
-    height: 600px;
-    padding-top: 2%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    gap: 20px;
-}
+    }
 
-.combo1{
-    border: 1px solid black;
-    height: 560px;
-    width: 350px;
 
-}
 
-.combo-shirts{
-   margin-top: 20px;
-   margin-bottom: 22px;
+    .s1::-webkit-scrollbar {
+    height: 8px;             
+    }
 
-}
+    .s1::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+    }
 
+    .s1::-webkit-scrollbar-track {
+    background: #ddd;
+    }
 
-.price1{
-    color: #444;
-    font-size: 22px;
-}
 
-.price2{
-    
-    font-size: 22px;
-    color: red;
-}
+    .s1 > div {
+    flex: 0 0 auto;
+    }
 
 
-.contact-us{
-    margin-top: 20px;
-    font-size: 18px;
-    height: 40px;
-    width: 130px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.74);
-}
-
-.contact-us:hover{
-      color: rgb(0, 0, 0);
-    background-color: rgba(110, 110, 110, 0.356);
-}
-
-
-
-.jeans-1{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images1.jfif);
-    background-size: cover;
-    background-position-y: -12px;
-}
-
-
-.jeans-1:hover{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-2.jfif);
-    background-size: cover;
-    background-position-y: -12px;
-}
-
-
-.jeans-2{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-3.jfif);
-    background-size: cover;
-}
-
-
-
-.jeans-3{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-4.jfif);
-    background-size: cover;
-}
-
-
-
-.jeans-4{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-5.jfif);
-    background-size: cover;
-}
-
-
-
-
-.jeans-5{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-6.jfif);
-    background-size: cover;
-}
-.jeans-6{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-7.jfif);
-    background-size: cover;
-}
-
-.jeans-6:hover{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-7-2.jfif);
-    background-size: cover;
-}
-
-
-
-.jeans-7{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/3179c1df-4af3-46ef-b348-422fefa1b694.jpg);
-    background-size: cover;
-}
-
-.jeans-8{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/combo-12.jpg);
-    background-size: cover;
-    background-position-y: -40px;
-}
-
-
-.jeans-9{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/e29f08e5-e2a3-4f71-a26a-292fb11ca429.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-
-.jeans-10{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/4514d7f0-cb64-4960-8fb0-dd1565b363d3.jpg);
-    background-size: cover;
-     background-position-y: -40px;
-}
-
-.jeans-11{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/WhatsApp\ Image\ 2025-09-24\ at\ 4.54.50\ PM.jpeg);
-    background-size: cover;
-     background-position-y: -40px;
-}
-
-
-.jeans-12{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/d4844017-c55a-4dbf-bd06-4005d4cff069.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-.jeans-13{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/a0f9fca0-2d34-4893-9cf2-b4cf4addcba4.jpg);
-    background-size: cover;
-    background-position-y: -20px;
-}
-
-.jeans-14{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/1332ce7a-7214-46a5-a165-8a69ca56c10e.jpg);
-    background-size: cover;
-    background-position-y: -10px;
-}
-
-
-.jeans-15{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/6f2f48de-05d9-49ef-b972-0b7e4f8e9688.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-
-.jeans-16{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/98dfd111-1174-4b0d-b2ca-26d06d98c1e2.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-.jeans-17{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/35862fd9-a247-45b6-a26d-e3948aee562d.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-.jeans-18{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/66bc1a88-6742-4d06-af3f-718a7caf6fc8.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-.jeans-19{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/ed043679-ae82-47e5-912f-c5012c8d64d0.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-
-.jeans-20{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/4ed979b8-e2fe-4616-bee5-78dc38b68a9a.jpg);
-    background-size: cover;
-    background-position-y: -30px;
-}
-
-
-
-
-
-
-
-
-
-.T-shirts-1{
-border: 1px solid black;
-height: 400px;
-background-image: url(./images/t-shirt-1.jfif);
-    background-size: cover;
-    background-position-y: -12px;
-}
-
-
-
-
-.T-shirts-2{
-border: 1px solid black;
-height: 400px;
-background-image: url(./images/t-shirts-2.avif);
-    background-size: cover;
-}
-
-
-
-.T-shirts-3{
-border: 1px solid black;
-height: 400px;
-background-image: url(./images/);
-    background-size: cover;
-}
-
-
-
-.T-shirts-4{
-border: 1px solid black;
-height: 400px;
-background-image: url(./images/images-5.jfif);
-    background-size: cover;
-}
-
-
-
-
-.T-shirts-5{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-6.jfif);
-    background-size: cover;
-}
-.T-shirts-6{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-7.jfif);
-    background-size: cover;
-}
-
-.jeans-6:hover{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-7-2.jfif);
-    background-size: cover;
-}
-
-
-
-.T-shirts-7{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-8.jfif);
-    background-size: cover;
-}
-
-.T-shirts-8{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-9.jfif);
-    background-size: cover;
-}
-
-
-.T-shirts-9{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-10.jfif);
-    background-size: cover;
-}
-
-
-.T-shirts-10{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-11.jfif);
-    background-size: cover;
-}
-
-.T-shirts-11{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-12.jfif);
-    background-size: cover;
-}
-
-
-.T-shirts-12{
-    border: 1px solid black;
-    height: 400px;
-    background-image: url(./images/images-13.jfif);
-    background-size: cover;
-}
-
-.flex{
-    display: flex;
-    gap: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1200px){
     .images-1{
-        width: 280px;
-        height: 300px;
+        border: 1px solid black;
+        height: 350px;
+        width: 310px;
+        border-radius: 50px 50px 0px 0px;
     }
 
-    .combo1{
-        height: 580px;
+
+    .back-img1{
+        background-image: url(./images/OIP\ \(7\).webp);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    .combo-shirts h5{
-        font-size: 20px;
+
+    .back-img2{
+        background-image: url(./images/OIP\ \(8\).webp);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-}
-
-
-@media(max-width:1100px){
-    .combo1{
-        width: 300px;
-        height: 500px;
+    .back-img3{
+        background-image: url(./images/OIP.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -40px;
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
-        height: 330px;
-    }
-}
-
-
-
-
-
-
-
-@media(max-width:992px){
-    .images-1{
-        width: 240px;
-        height: 270px;
+    .back-img4{
+        background-image: url(./images/39.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
     }
 
-    .back-img1  {
-        height: 300px;
-        font-size: 20px;
+
+    .back-img5{
+        background-image: url(./images/OIP.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
     }
 
-     .back-img1 button  {
-      
-        height: 50px;
+
+    .back-img6{
+        background-image: url(./images/OIP\ \(1\).webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
     }
-    .back-img1 button h3 {
-       
+
+
+    .back-img7{
+        background-image: url(./images/OIP\ \(2\).webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+
+
+    .back-img8{
+        background-image: url(./images/OIP\ \(1\).jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+
+
+
+    .back-img9{
+        background-image: url(./images/1_fc68c48f-d9b5-4589-85f7-84c8b44690b8_500x.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+
+
+    .images-1 button{
+        height: 40px;
+        width: 90%;
+        border-radius: 10px;
         font-size: 25px;
+        margin-top: 100%;
+        margin-left: 5%;
+        background-color: black;
+        color: white;
     }
-
-    .jeans h1{
-       font-size: 30px;
-    }
-}
-
-
-
-@media(max-width:960px){
-    .combo1{
-        width: 260px;
-        height: 500px;
-    }
-
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
-        height: 280px;
-    }
-}
-
-
-
-@media(max-width:830px){
-    .combo1{
-        width: 230px;
-        height: 430px;
-    }
-
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
-        height: 240px;
-    }
-    .combo-shirts h5,.price1{
-        font-size: 18px;
-    }
-}
-
-
-
-
-
-
-
-
-@media(max-width:778px){
-    .images-1{
-        width: 200px;
-        height: 240px;
-    }
-
-      .back-img7 button h3{
-        font-size: 20px;
-    }
-
-    .back-img9 button h3{
-        font-size: 20px;
-    }
-}
-
-
-@media(max-width:745px){
-    .box5{
-        grid-template-columns: auto auto;
-    }
-}
-
-
-@media(max-width:658px){
-    .images-1{
-        width: 170px;
-        height: 200px;
-    }
-
-      .back-img7 button h3{
-        font-size: 17px;
-    }
-
-    .back-img9 button h3{
-        font-size: 19px;
-    }
-}
-
-
-@media (max-width:560px){
-      .back-img7 button h3{
-        font-size: 15px;
-    }
-
-    .back-img9 button h3{
-        font-size: 15px;
-    }
-}
-
-@media(max-width:558px){
-    .images-1{
-        width: 140px;
-        height: 190px;
-    }
-    .jeans h1{
-        font-size: 38px;
-    }
-}
-
-
-@media(max-width:535px){
-      .back-img7 button h3{
-        font-size: 15px;
-    }
-
-    .back-img9 button h3{
-        font-size: 15px;
-    }
-}
-
-
-
-@media(max-width:480px){
-    .combo1{
-        width: 180px;
-        height: 430px;
-    }
-
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
-        height: 240px;
-    }
-}
-
-
-@media(max-width:460px){
-    .images-1{
-        width: 130px;
-        height: 180px;
-    }
-
-    .back-img7 button h3{
-        font-size: 15px;
-    }
-
-    .back-img9 button h3{
-        font-size: 15px;
-    }
-
 
 
     .jeans{
-        height: 45px;
+        margin-top: 3%;
+        border:  1px solid black;
+        height: 80px;
+        background-color: #818181;
+        color: aliceblue;
+    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-     .jeans h1{
-        font-size: 24px;
-    }
-}
 
 
-@media(max-width:400px){
+
+    .box5{
+        
+        height: 600px;
+        padding-top: 2%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
     .combo1{
-        width: 150px;
-        height: 390px;
+        border: 1px solid black;
+        height: 560px;
+        width: 350px;
+
     }
 
-    .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
-        height: 210px;
+    .combo-shirts{
+    margin-top: 20px;
+    margin-bottom: 22px;
+
     }
 
-    .combo-shirts h5{
-        font-size: 16px;
+
+    .price1{
+        color: #444;
+        font-size: 22px;
     }
 
     .price2{
-        font-size: 17px;
+        
+        font-size: 22px;
+        color: red;
+        
     }
-}
 
+
+
+    .contact-us {
+        margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #fa2f2f, #ff4646);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+
+    .contact-us:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    }
+
+    .contact-us:hover::before {
+    left: 100%;
+    }
+
+
+
+
+
+
+    .jeans-1{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(https://raw.githubusercontent.com/Taiayan18/king-fashion/refs/heads/main/images/images1.jfif);
+        background-size: cover;
+        background-position-y: -12px;
+    }
+
+
+    .jeans-1:hover{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-2.jfif);
+        background-size: cover;
+        background-position-y: -12px;
+    }
+
+
+    .jeans-2{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-3.jfif);
+        background-size: cover;
+    }
+
+
+
+    .jeans-3{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-4.jfif);
+        background-size: cover;
+    }
+
+
+
+    .jeans-4{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-5.jfif);
+        background-size: cover;
+    }
+
+
+
+
+    .jeans-5{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-6.jfif);
+        background-size: cover;
+    }
+    .jeans-6{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-7.jfif);
+        background-size: cover;
+    }
+
+    .jeans-6:hover{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-7-2.jfif);
+        background-size: cover;
+    }
+
+
+
+    .jeans-7{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/3179c1df-4af3-46ef-b348-422fefa1b694.jpg);
+        background-size: cover;
+    }
+
+    .jeans-8{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/combo-12.jpg);
+        background-size: cover;
+        background-position-y: -40px;
+    }
+
+
+    .jeans-9{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/e29f08e5-e2a3-4f71-a26a-292fb11ca429.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+
+    .jeans-10{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/4514d7f0-cb64-4960-8fb0-dd1565b363d3.jpg);
+        background-size: cover;
+        background-position-y: -40px;
+    }
+
+    .jeans-11{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/WhatsApp\ Image\ 2025-09-24\ at\ 4.54.50\ PM.jpeg);
+        background-size: cover;
+        background-position-y: -40px;
+    }
+
+
+    .jeans-12{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/d4844017-c55a-4dbf-bd06-4005d4cff069.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+    .jeans-13{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/a0f9fca0-2d34-4893-9cf2-b4cf4addcba4.jpg);
+        background-size: cover;
+        background-position-y: -20px;
+    }
+
+    .jeans-14{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/1332ce7a-7214-46a5-a165-8a69ca56c10e.jpg);
+        background-size: cover;
+        background-position-y: -10px;
+    }
+
+
+    .jeans-15{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/6f2f48de-05d9-49ef-b972-0b7e4f8e9688.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+
+    .jeans-16{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/98dfd111-1174-4b0d-b2ca-26d06d98c1e2.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+    .jeans-17{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/35862fd9-a247-45b6-a26d-e3948aee562d.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+    .jeans-18{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/66bc1a88-6742-4d06-af3f-718a7caf6fc8.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+    .jeans-19{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/ed043679-ae82-47e5-912f-c5012c8d64d0.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+
+    .jeans-20{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/4ed979b8-e2fe-4616-bee5-78dc38b68a9a.jpg);
+        background-size: cover;
+        background-position-y: -30px;
+    }
+
+
+
+
+
+
+    .Track-1{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-2{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-3{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-4{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-5{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-6{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-7{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-8{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-9{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+    .Track-10{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-11{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-12{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+
+    .Track-13{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+
+    .Track-14{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+
+    .Track-15{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+
+    .Track-16{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-17{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-18{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-19{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+    .Track-20{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .T-shirts-1{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/;);
+        background-size: cover;
+        background-position-y: -12px;
+    }
+
+
+
+
+    .T-shirts-2{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+
+    .T-shirts-3{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+
+    .T-shirts-4{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+
+
+    .T-shirts-5{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+    .T-shirts-6{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+  
+
+    .T-shirts-7{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+    .T-shirts-8{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+    .T-shirts-9{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+    .T-shirts-10{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+    .T-shirts-11{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+    .T-shirts-12{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+       .T-shirts-13{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-14{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-15{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-16{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-17{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-18{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-19{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+       .T-shirts-20{
+        border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+
+
+
+
+        .Cotton-1{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-8.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-2{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-9.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-3{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-10.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-4{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-11.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-5{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-12.jfif);
+        background-size: cover;
+    }  
+    
+    .Cotton-6{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-13.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-7{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-14.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-8{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-15.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-9{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-16.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-10{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/images-17.jfif);
+        background-size: cover;
+    }
+
+      .Cotton-11{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-12{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+      .Cotton-13{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-14{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-15{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-16{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-17{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-18{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+      .Cotton-19{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+      .Cotton-20{
+         border: 1px solid black;
+        height: 400px;
+        background-image: url(./images/);
+        background-size: cover;
+    }
+
+
+
+    
+
+
+    .flex{
+        display: flex;
+        gap: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media(max-width:1200px){
+        .images-1{
+            width: 280px;
+            height: 300px;
+        }
+
+        .combo1{
+            height: 580px;
+        }
+
+        .combo-shirts h5{
+            font-size: 20px;
+        }
+
+    }
+
+
+    @media(max-width:1100px){
+        .combo1{
+            width: 300px;
+            height: 500px;
+        }
+
+        .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
+            height: 330px;
+        }
+
+
+        .Cotton-1,.Cotton-2,.Cotton-3,.Cotton-4,.Cotton-5,.Cotton-6,.Cotton-7,.Cotton-8,.Cotton-9,.Cotton-10,.Cotton-11,.Cotton-12,.Cotton-13,.Cotton-14,.Cotton-15,.Cotton-16,.Cotton-17,.Cotton-18,.Cotton-19,.Cotton-20{
+            height: 330px;
+            background-position-y: -30px;
+        }
+
+         .T-shirts-1, .T-shirts-2, .T-shirts-3, .T-shirts-4, .T-shirts-5, .T-shirts-6, .T-shirts-7, .T-shirts-8, .T-shirts-9, .T-shirts-10, .T-shirts-11, .T-shirts-12, .T-shirts-13, .T-shirts-14, .T-shirts-15, .T-shirts-16, .T-shirts-17, .T-shirts-18, .T-shirts-19, .T-shirts-20{
+            height: 330px;
+         }
+    }
+
+
+
+
+
+
+
+    @media(max-width:992px){
+        .images-1{
+            width: 240px;
+            height: 270px;
+        }
+
+        .back-img1  {
+            height: 300px;
+            font-size: 20px;
+        }
+
+        .back-img1 button  {
+        
+            height: 50px;
+        }
+        .back-img1 button h3 {
+        
+            font-size: 25px;
+        }
+
+        .jeans h1{
+        font-size: 30px;
+        }
+    }
+
+
+
+    @media(max-width:960px){
+        .combo1{
+            width: 260px;
+            height: 500px;
+        }
+
+        .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
+            height: 280px;
+        }
+
+        .Cotton-1,.Cotton-2,.Cotton-3,.Cotton-4,.Cotton-5,.Cotton-6,.Cotton-7,.Cotton-8,.Cotton-9,.Cotton-10,.Cotton-11,.Cotton-12,.Cotton-13,.Cotton-14,.Cotton-15,.Cotton-16,.Cotton-17,.Cotton-18,.Cotton-19,.Cotton-20
+        {
+
+           height: 280px;
+
+        }
+
+        .T-shirts-1, .T-shirts-2, .T-shirts-3, .T-shirts-4, .T-shirts-5, .T-shirts-6, .T-shirts-7, .T-shirts-8, .T-shirts-9, .T-shirts-10, .T-shirts-11, .T-shirts-12, .T-shirts-13, .T-shirts-14, .T-shirts-15, .T-shirts-16, .T-shirts-17, .T-shirts-18, .T-shirts-19, .T-shirts-20{
+             height: 280px;
+        }
+    }
+
+
+
+    @media(max-width:830px){
+        .combo1{
+            width: 230px;
+            height: 430px;
+        }
+
+        .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
+            height: 240px;
+        }
+        .combo-shirts h5,.price1{
+            font-size: 18px;
+        }
+
+        .Cotton-1,.Cotton-2,.Cotton-3,.Cotton-4,.Cotton-5,.Cotton-6,.Cotton-7,.Cotton-8,.Cotton-9,.Cotton-10,.Cotton-11,.Cotton-12,.Cotton-13,.Cotton-14,.Cotton-15,.Cotton-16,.Cotton-17,.Cotton-18,.Cotton-19,.Cotton-20{
+            height: 240px;
+        }
+
+        .T-shirts-1, .T-shirts-2, .T-shirts-3, .T-shirts-4, .T-shirts-5, .T-shirts-6, .T-shirts-7, .T-shirts-8, .T-shirts-9, .T-shirts-10, .T-shirts-11, .T-shirts-12, .T-shirts-13, .T-shirts-14, .T-shirts-15, .T-shirts-16, .T-shirts-17, .T-shirts-18, .T-shirts-19, .T-shirts-20{
+            height: 240px;
+        }
+    }
+
+
+
+
+
+
+
+
+    @media(max-width:778px){
+        .images-1{
+            width: 200px;
+            height: 240px;
+        }
+
+        .back-img7 button h3{
+            font-size: 20px;
+        }
+
+        .back-img9 button h3{
+            font-size: 20px;
+        }
+    }
+
+
+    @media(max-width:745px){
+        .box5{
+            grid-template-columns: auto auto;
+        }
+    }
+
+    @media(max-width:640px){
+        .back-img8 h3{
+            font-size: 18px;
+        }
+
+        .back-img5 h3{
+            font-size: 18px;
+        }
+
+        .back-img6 h3{
+            font-size: 18px;
+        }
+    }
+
+
+    @media(max-width:658px){
+        .images-1{
+            width: 170px;
+            height: 200px;
+        }
+
+        .back-img7 button h3{
+            font-size: 17px;
+        }
+
+        .back-img9 button h3{
+            font-size: 19px;
+        }
+        .back-img8 h3{
+            font-size: 18px;
+        }
+
+        .back-img5 h3{
+            font-size: 15px;
+        }
+
+        .back-img6 h3{
+            font-size: 15px;
+        }
+    }
+
+
+    @media (max-width:560px){
+        .back-img7 button h3{
+            font-size: 15px;
+        }
+
+        .back-img9 button h3{
+            font-size: 15px;
+        }
+    }
+
+    @media(max-width:558px){
+        .images-1{
+            width: 140px;
+            height: 190px;
+        }
+        .jeans h1{
+            font-size: 38px;
+        }
+    }
+
+
+    @media(max-width:535px){
+        .back-img7 button h3{
+            font-size: 15px;
+        }
+
+        .back-img9 button h3{
+            font-size: 15px;
+        }
+    }
+
+
+
+    @media(max-width:488px){
+        .combo1{
+            width: 180px;
+            height: 430px;
+        }
+
+        .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
+            height: 240px;
+        
+        }
+
+        .Cotton-1,.Cotton-2,.Cotton-3,.Cotton-4,.Cotton-5,.Cotton-6,.Cotton-7,.Cotton-8,.Cotton-9,.Cotton-10,.Cotton-11,.Cotton-12,.Cotton-13,.Cotton-14,.Cotton-15,.Cotton-16,.Cotton-17,.Cotton-18,.Cotton-19,.Cotton-20{
+             height: 240px;
+             background-position-y: 0px;
+        }
+
+        .T-shirts-1, .T-shirts-2, .T-shirts-3, .T-shirts-4, .T-shirts-5, .T-shirts-6, .T-shirts-7, .T-shirts-8, .T-shirts-9, .T-shirts-10, .T-shirts-11, .T-shirts-12, .T-shirts-13, .T-shirts-14, .T-shirts-15, .T-shirts-16, .T-shirts-17, .T-shirts-18, .T-shirts-19, .T-shirts-20{
+            height: 240;
+        }
+
+        
+
+
+        .jeans-11,.jeans-8,.jeans-9,.jeans-10,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
+            background-position-y: 5px;
+        }
+
+        .box1{
+            display: none;
+        }
+    }
+
+
+    @media(max-width:460px){
+        .images-1{
+            width: 130px;
+            height: 180px;
+        }
+
+        .back-img7 button h3{
+            font-size: 15px;
+        }
+
+        .back-img9 button h3{
+            font-size: 15px;
+        }
+
+
+
+        .jeans{
+            height: 45px;
+        }
+        .jeans h1{
+            font-size: 24px;
+        }
+
+        .back-img8 h3{
+            font-size: 15px;
+        }
+    }
+
+
+    @media(max-width:400px){
+        .combo1{
+            width: 150px;
+            height: 390px;
+        }
+
+        .jeans-1,.jeans-1:hover,.jeans-2,.jeans-3,.jeans-4,.jeans-5,.jeans-6,.jeans-6:hover,.jeans-7,.jeans-8,.jeans-9,.jeans-10,.jeans-11,.jeans-12,.jeans-13,.jeans-14,.jeans-15,.jeans-16,.jeans-17,.jeans-18,.jeans-19,.jeans-20{
+            height: 210px;
+        }
+
+        .Cotton-1,.Cotton-2,.Cotton-3,.Cotton-4,.Cotton-5,.Cotton-6,.Cotton-7,.Cotton-8,.Cotton-9,.Cotton-10,.Cotton-11,.Cotton-12,.Cotton-13,.Cotton-14,.Cotton-15,.Cotton-16,.Cotton-17,.Cotton-18,.Cotton-19,.Cotton-20{
+            height: 210px;
+        }
+
+        .T-shirts-1, .T-shirts-2, .T-shirts-3, .T-shirts-4, .T-shirts-5, .T-shirts-6, .T-shirts-7, .T-shirts-8, .T-shirts-9, .T-shirts-10, .T-shirts-11, .T-shirts-12, .T-shirts-13, .T-shirts-14, .T-shirts-15, .T-shirts-16, .T-shirts-17, .T-shirts-18, .T-shirts-19, .T-shirts-20{
+            height: 210px;
+        }
+
+        .combo-shirts h5{
+            font-size: 16px;
+        }
+
+        .price1{
+            font-size: 15px;
+        }
+
+        .price2{
+            font-size: 15px;
+        }
+        .contact-us{
+            font-size: 13px;
+            width: 110px;
+        }
+    }
 
 
 

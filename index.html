@@ -20,113 +20,122 @@
     <link rel="stylesheet" href="./styels.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="box1">
-          <h4>Special Discount: Grad the Latest Shirt now for ₹699</h4>
-          <button>Buy Now</button>
-        </div>
-        <div class="logo">
-          <a href=""> <i class="fa-brands fa-facebook"></i></a>
+        <!-- Top Bar -->
+    <div class="box1">
+      <h6 class="mb-0">Special Discount: Grab the Latest Shirt now for ₹699</h6>
+      <button class="btn btn-light btn-sm">Buy Now</button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <!-- Social Icons -->
+        <div class="d-flex align-items-center me-3">
+          <a href="#" class="me-3"><i class="fa-brands fa-facebook"></i></a>
           <a
             href="https://www.instagram.com/king_fashion_virmgam?igsh=aDFhNHlkcjdjc3Ji"
             target="_blank"
+            class="me-3"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <div class="box2">
-          <div class="d-flex gap-4 ms-4">
-            <div class="dropdown">
-              <button class="btn btn-secondary">Home</button>
-            </div>
 
-            <!-- 2 drop down -->
+        <!-- Brand Logo -->
+        <a class="navbar-brand mx-auto d-lg-none" href="#">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEosO2-K23ftqb9_4d5czv4SL2OShvH-Ipzw&s" height="60" alt="Logo" />
+        </a>
 
-            <div class="dropdown">
-              <button
-                class="btn btn-dark bg-dark"
-                type="button"
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu Items -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+
+            <!-- Top Wear Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Top Wear
-              </button>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li>
-                  <a class="dropdown-item active" href="home.html">Shirts</a>
-                </li>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shirts</a></li>
                 <li><a class="dropdown-item" href="#">T-shirts</a></li>
                 <li><a class="dropdown-item" href="#">Jacket</a></li>
-                <li><a class="dropdown-item" href="#">Branded Shirts</a></li>
+                
               </ul>
-            </div>
+            </li>
 
-            <!-- 3 drop down -->
-
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary bg-dark"
-                type="button"
+            <!-- Bottom Wear Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Bottom Wear
-              </button>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li>
-                  <a class="dropdown-item active" href="home.html"> All Pant</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Jeans-pant</a></li>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All Pant</a></li>
+                <li><a class="dropdown-item" href="#">Jeans Pant</a></li>
                 <li><a class="dropdown-item" href="#">Cotton Pant</a></li>
-                <li><a class="dropdown-item" href="#">Branded Pant</a></li>
+               
               </ul>
-            </div>
+            </li>
 
-            <!-- 4 drop down -->
-
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary bg-dark"
-                type="button"
+            <!-- Combo Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Combo
-              </button>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Cotton-combo</a></li>
-                <li>
-                  <a class="dropdown-item active" href="home.html">
-                    Shirts-pant combo</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">T-shirts-Pant-Combo</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Branded-combo</a></li>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cotton combo.html">Cotton Combo</a></li>
+                <li><a class="dropdown-item" href="combo.html ">Shirts-Pant Combo</a></li>
+                <li><a class="dropdown-item" href="t-shirts.html">T-Shirts-Pant Combo</a></li>
+             
               </ul>
-            </div>
-          </div>
+            </li>
+          </ul>
 
-          <div>
+          <!-- Right Icons -->
+          <div class="d-flex align-items-center ms-lg-3">
             <img
-              class="logo2"
-              height="100%"
-              width="100%"
-              src="./images/OIP__6_-removebg-preview.png"
-              alt=""
+              class="d-none d-lg-block me-4"
+              src="./images/OIP_6-removebg-preview.png"
+              height="60"
+              alt="Logo"
             />
-          </div>
-
-          <div class="menu me-4">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-magnifying-glass me-3"></i>
+            <i class="fa-regular fa-user me-3"></i>
             <i class="fa-regular fa-heart"></i>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <section class="sec1"> 
         <div class="s1">
